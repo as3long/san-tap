@@ -1,0 +1,16 @@
+{
+    "name": "san-tap",
+    "version": "1.0.0",
+    "description": "Support tap event in your san project.",
+    "main": "index.js",
+    "keywords": [
+        "tap",
+        "san",
+        "san-tap"
+    ],
+    "author": "as3long@qq.com",
+    "license": "MIT",
+    "dependencies": {
+        "san": "^3.5.9"
+    }
+}
