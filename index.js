@@ -2,8 +2,8 @@ var san = require('san');
 
 module.exports = san.defineComponent({
     template: 
-    '<template>'+
-        '<slot on-touchstart="touchStartHandler" on-touchend="touchEndHandler">'+
+    '<template on-touchstart="touchStartHandler" on-touchend="touchEndHandler">'+
+        '<slot>'+
         '</slot>'+
     '</template>',
     initData: function() {
